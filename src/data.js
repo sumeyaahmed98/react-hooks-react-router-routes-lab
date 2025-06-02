@@ -1,57 +1,39 @@
-const movies = [
+export const movies = [
   {
     title: "Doctor Strange",
     time: 115,
-    genres: ["Action", "Adventure", "Fantasy"],
+    genres: ["Action", "Adventure", "Fantasy"]
   },
   {
-    title: "Trolls",
-    time: 92,
-    genres: ["Animation", "Adventure", "Comedy", "Family", "Fantasy"],
+    title: "Wonder Woman",
+    time: 145,
+    genres: ["Action", "Adventure", "Fantasy"]
   },
   {
-    title: "Jack Reacher: Never Go Back",
-    time: 118,
-    genres: ["Action", "Adventure", "Crime", "Mystery", "Thriller"],
-  },
+    title: "The Matrix",
+    time: 136,
+    genres: ["Action", "Sci-Fi"]
+  }
 ];
 
-const actors = [
+export const directors = [
   {
-    name: "Benedict Cumberbatch",
-    movies: ["Doctor Strange", "The Imitation Game", "Black Mass"],
+    name: "Christopher Nolan",
+    movies: ["Inception", "Interstellar", "Dunkirk"]
   },
   {
-    name: "Justin Timberlake",
-    movies: ["Trolls", "Friends with Benefits", "The Social Network"],
-  },
-  {
-    name: "Anna Kendrick",
-    movies: ["Pitch Perfect", "Into The Wood"],
-  },
-  {
-    name: "Tom Cruise",
-    movies: [
-      "Jack Reacher: Never Go Back",
-      "Mission Impossible 4",
-      "War of the Worlds",
-    ],
-  },
+    name: "Greta Gerwig",
+    movies: ["Lady Bird", "Little Women"]
+  }
 ];
 
-const directors = [
+export const actors = [
   {
-    name: "Scott Derrickson",
-    movies: ["Doctor Strange", "Sinister", "The Exorcism of Emily Rose"],
+    name: "Keanu Reeves",
+    movies: ["The Matrix", "John Wick"]
   },
   {
-    name: "Mike Mitchell",
-    movies: ["Trolls", "Alvin and the Chipmunks: Chipwrecked", "Sky High"],
-  },
-  {
-    name: "Edward Zwick",
-    movies: ["Jack Reacher: Never Go Back", "Blood Diamon", "The Siege"],
-  },
+    name: "Gal Gadot",
+    movies: ["Wonder Woman", "Justice League"]
+  }
 ];
-
-export { movies, actors, directors };
